@@ -16,7 +16,7 @@ Usage
 Use the function *connect_fcu_region* to create a connection object: ::
 
    >>> from outscale.boto import fcu
-   >>> conn = fcu.connect_fcu_endpoint('fcu.eu-west-2.outscale.com',
+   >>> conn = fcu.connect_fcu_endpoint('https://fcu.eu-west-2.outscale.com',
                                        aws_access_key_id=AK,
                                        aws_secret_access_key=SK)
 
